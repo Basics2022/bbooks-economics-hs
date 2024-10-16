@@ -1,9 +1,10 @@
-# basics-book template
+(book:economics:hs)=
+# Introduzione all'economia
 
-If you want ot start a new basics-book, it could be a good idea to start from this template.
+Questo libro fa parte del materiale pensato per [le scuole superiori](https://basics2022.github.io/bbooks-hs)
 
-Please check out the Github repo of the project, [basics-book project](https://github.com/Basics2022).
+<span style="color:red">
+
+</span>
 
 
-```{tableofcontents}
-```
