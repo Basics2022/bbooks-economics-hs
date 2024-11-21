@@ -39,7 +39,6 @@ sphinx:
       logo:
         image_light: logo.svg
         image_dark: logo-dark.svg
-        image_dark: logo-dark.svg
       repository_url: https://github.com/Basics2022/bbooks-economics-hs  # Online location of your book
       repository_branch: master
       use_repository_button: True
