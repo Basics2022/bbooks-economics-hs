@@ -672,7 +672,7 @@ Determinazione dei prezzi<div class="sd-summary-down docutils">
 <ul class="simple">
 <li><p class="sd-card-text"><span class="math notranslate nohighlight">\(Y\)</span> output, <span class="math notranslate nohighlight">\(\left[\$\right]\)</span></p></li>
 <li><p class="sd-card-text"><span class="math notranslate nohighlight">\(N\)</span> occupazione, <span class="math notranslate nohighlight">\(\left[\text{n. ore lavorate}\right]\)</span> o altre <a class="reference internal" href="#economics-hs-macro-medium-run-jobs-market-stats"><span class="std std-ref">misure del lavoro</span></a></p></li>
-<li><p class="sd-card-text"><span class="math notranslate nohighlight">\(A\)</span> produttività, <span class="math notranslate nohighlight">\(\left[\frac{\$}{\text{n. ore lavorate}}\right]\)</span>, o riferito a altre misure del lavoro; dipende dallo sviluppo tecnologico](economics-hs:macro:long-run:progress)</p></li>
+<li><p class="sd-card-text"><span class="math notranslate nohighlight">\(A\)</span> produttività, <span class="math notranslate nohighlight">\(\left[\frac{\$}{\text{n. ore lavorate}}\right]\)</span>, o riferito a altre misure del lavoro; dipende dallo <a class="reference internal" href="#economics-hs-macro-long-run-progress"><span class="std std-ref">sviluppo tecnologico</span></a> e influenza la crescita economica</p></li>
 </ul>
 <p class="sd-card-text">Prezzi, in funzione del livello dei salari, del numero di dipendenti, del costo della materia prima, e del markup <span class="math notranslate nohighlight">\(m\)</span> dell’azienda <span class="math notranslate nohighlight">\(\frac{\text{prezzo}}{\text{cost}}\)</span>, che dipende dal potere dell’azienda di fare il prezzo nel mercato. Nell’ipotesi che il costo della materia prima possa essere incorporato nel markup <span class="math notranslate nohighlight">\(m\)</span>, si può (<em>sì? in quali condizioni? ha senso nascondere il costo della materia prima nel markup? In generale non è detto che questo sia un effetto lineare con i salari…</em>)</p>
 <div class="math notranslate nohighlight" id="equation-eq-prices-wages">
@@ -690,6 +690,18 @@ Determinazione dei prezzi<div class="sd-summary-down docutils">
 </div>
 <div class="section" id="offerta-e-domanda-aggregata-il-modello-as-ad">
 <span id="economics-hs-macro-medium-run-as-ad"></span><h3><span class="section-number">2.3.2. </span>Offerta e domanda aggregata: il modello AS-AD<a class="headerlink" href="#offerta-e-domanda-aggregata-il-modello-as-ad" title="Permalink to this heading">#</a></h3>
+<p><strong>AS, Aggregate Supply.</strong> Dalle relazioni per la formazione dei salari <a class="reference internal" href="#equation-eq-wages-prices">(2.1)</a> e dei prezzi <a class="reference internal" href="#equation-eq-prices-wages">(2.2)</a>, eliminando la variabile dei salari, <span class="math notranslate nohighlight">\(W\)</span>, ed usando la relazione tra tasso di disoccupazione e output</p>
+<div class="math notranslate nohighlight" id="equation-eq-as">
+<span class="eqno">(2.4)<a class="headerlink" href="#equation-eq-as" title="Permalink a questa equazione">#</a></span>\[P = P^e (1+m) F(u,z) = P^e (1+m) \left( 1-\frac{Y}{A L}, z \right)\]</div>
+<p>Influenza dei parametri:</p>
+<ul class="simple">
+<li><p><span class="math notranslate nohighlight">\(\partial_{P^e} P = (1+m) F(u,z) &gt; 0\)</span></p></li>
+<li><p><span class="math notranslate nohighlight">\(\partial_{m} P = P^e F(u,z) &gt; 0\)</span></p></li>
+<li><p><span class="math notranslate nohighlight">\(\partial_{z} P = P^e (1+m) \partial_z F &gt; 0\)</span></p></li>
+<li><p><span class="math notranslate nohighlight">\(\partial_{Y} u = - \frac{1}{A L} &lt; 0\)</span>, e quindi <span class="math notranslate nohighlight">\(\partial_Y P = - P^e (1+m) \frac{1}{AL} \partial_u F &gt; 0\)</span></p></li>
+<li><p><span class="math notranslate nohighlight">\(\partial_{A} u = \frac{Y}{A^2 L} &gt; 0\)</span>, e quindi <span class="math notranslate nohighlight">\(\partial_Y P = P^e (1+m) \frac{1}{A^2 L} \partial_u F &lt; 0\)</span></p></li>
+</ul>
+<p><strong>AD, Aggregate Demand.</strong></p>
 </div>
 <div class="section" id="il-tasso-naturale-di-disoccupazione-e-la-curva-di-phillips">
 <span id="economics-hs-macro-medium-run-unemployment-phillips"></span><h3><span class="section-number">2.3.3. </span>Il tasso naturale di disoccupazione e la curva di Phillips<a class="headerlink" href="#il-tasso-naturale-di-disoccupazione-e-la-curva-di-phillips" title="Permalink to this heading">#</a></h3>

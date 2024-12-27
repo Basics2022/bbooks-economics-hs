@@ -162,7 +162,7 @@ $$Y = A N$$
 
 - $Y$ output, $\left[\$\right]$
 - $N$ occupazione, $\left[\text{n. ore lavorate}\right]$ o altre [misure del lavoro](economics-hs:macro:medium-run:jobs-market:stats)
-- $A$ produttività, $\left[\frac{\$}{\text{n. ore lavorate}}\right]$, o riferito a altre misure del lavoro; dipende dallo sviluppo tecnologico](economics-hs:macro:long-run:progress)
+- $A$ produttività, $\left[\frac{\$}{\text{n. ore lavorate}}\right]$, o riferito a altre misure del lavoro; dipende dallo [sviluppo tecnologico](economics-hs:macro:long-run:progress) e influenza la crescita economica
 
 Prezzi, in funzione del livello dei salari, del numero di dipendenti, del costo della materia prima, e del markup $m$ dell'azienda $\frac{\text{prezzo}}{\text{cost}}$, che dipende dal potere dell'azienda di fare il prezzo nel mercato. Nell'ipotesi che il costo della materia prima possa essere incorporato nel markup $m$, si può (*sì? in quali condizioni? ha senso nascondere il costo della materia prima nel markup? In generale non è detto che questo sia un effetto lineare con i salari...*)
 
@@ -184,6 +184,20 @@ da cui si ricava la definizione di **tasso di disoccupazione naturale**, $u_n$, 
 
 (economics-hs:macro:medium-run:as-ad)=
 ### Offerta e domanda aggregata: il modello AS-AD
+
+**AS, Aggregate Supply.** Dalle relazioni per la formazione dei salari {eq}`eq:wages-prices` e dei prezzi {eq}`eq:prices-wages`, eliminando la variabile dei salari, $W$, ed usando la relazione tra tasso di disoccupazione e output
+
+$$P = P^e (1+m) F(u,z) = P^e (1+m) \left( 1-\frac{Y}{A L}, z \right)$$ (eq:as)
+
+Influenza dei parametri:
+- $\partial_{P^e} P = (1+m) F(u,z) > 0$
+- $\partial_{m} P = P^e F(u,z) > 0$
+- $\partial_{z} P = P^e (1+m) \partial_z F > 0$
+- $\partial_{Y} u = - \frac{1}{A L} < 0$, e quindi $\partial_Y P = - P^e (1+m) \frac{1}{AL} \partial_u F > 0$
+- $\partial_{A} u = \frac{Y}{A^2 L} > 0$, e quindi $\partial_Y P = P^e (1+m) \frac{1}{A^2 L} \partial_u F < 0$
+
+
+**AD, Aggregate Demand.**
 
 (economics-hs:macro:medium-run:unemployment:phillips)=
 ### Il tasso naturale di disoccupazione e la curva di Phillips
