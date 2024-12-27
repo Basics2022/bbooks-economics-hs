@@ -3,13 +3,18 @@
 
 format: jb-book
 root: intro
+options:
   numbered: True
 parts:
 - caption: Microeconomia
   numbered: True
   chapters:
-  - file: micro
+  - file: ch/micro
 - caption: Macroeconomia
   numbered: True
   chapters:
-  - file: macro
+  - file: ch/macro
+- caption: Educazione finanziaria
+  numbered: True
+  chapters:
+  - file: ch/fin-edu

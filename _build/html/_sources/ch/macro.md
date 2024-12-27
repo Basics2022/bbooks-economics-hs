@@ -165,45 +165,12 @@ $$\begin{aligned}
 
 che prevede l'uguaglianza tra investimenti e risparmio (somma di privato e pubblico) in condizioni di equilibrio.
 
-**Osservazione.** La decisione di consumo è la stessa decisione di risparmio, poiché $Y - T =: Y_d = C + S$
 
-**Approssimazioni.** Nel caso di consumo lineare con il reddito disponibile,
-
-$$S = Y - T - C = Y - T - c_0 - c_1 (Y - T) = - c_0 + (1 - c_1)(Y-T)$$
 
 (economics-hs:macro:short-run:financial-market)=
 ### I mercati finanziari
 
-Nell'ipotesi che ci siano solo due scelte possibili di impiego del patrimonio, liquidità (moneta in varie forme) e obbligazioni (che pagano interessi $i$). In quale proporzione conviene avere liquidità e obbligazioni? Dipende da: livello di transazioni (quanto denaro serve per le spese) e interessi sulle obbligazioni (quanto conviene avere bond, per godere di interessi).
-
-#### Domanda di moneta
-La domanda di moneta è la quantità di moneta necessaria principalmente per le transazioni all'interno di un'economia. E' ragionevole quindi assumere che la domanda di moneta $M^d$ sia proporzionale al reddito nominale $\$Y$ e sia funzione dei tassi di interesse $i$
-
-$$M^d = \$ Y L(i) \ ,$$
-
-con $L_{/i} < 0$ poiché risulta più conveniente avere 
-
-**Osservazione.** [Ruolo delle aspettative sui tassi di interesse](economics-hs:macro:extra:expectations).
-
-L'offerta di moneta $M^s$ è controllata dalla banca centrale della zona di interesse. All'**equilibrio**, l'offerta di moneta uguaglia la domanda di moneta, 
-
-$\begin{aligned}
-  M^s & = M^d \\
-  M^s & = \$ Y L(i) \\
-  M^s & = P Y L(i) \ ,
-\end{aligned}$$
-
-avendo indicato $Y$ l'output reale, $\$ Y$ l'output nominale e $P$ l'indice dei prezzi.
-
 $$\frac{M}{P} = Y L(i)$$
-
-### Determinazione del tasso di interesse
-- politica monetaria, e opearazioni open-market
-- economia con moneta nella forma di contanti e depositi: il ruolo delle banche come *intermediari finanziari*
-  - Cosa fanno le banche: bilancio di CB e di B
-    - B: ricevono soldi da risparmiatori; mantengono riserve (in liquidità e presso CB), per transazioni e per vincoli richiesti per solidità (reserve ratio); il resto può essere usato per prestiti (circa 70\% in quali paesi) e altri investimenti, tipicamente bond (30\%)
-
-**todo**...
 
 (economics-hs:macro:short-run:is-lm)=
 ### Il modello IS-LM
