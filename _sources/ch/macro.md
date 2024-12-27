@@ -2,8 +2,23 @@
 # Macroeconomia
 
 ## Introduzione
-- Produzione aggregata, PIL
-- Altre variabili macroeconomiche: tasso di disoccupazione, tasso di inflazione,...
+### Misurazione dell'attività economica, PIL e PNL
+Esistono 3 possibili definizioni equivalenti con 3 approcci differenti del PIL/PNL, come misura dell'attività economica in un determinato intervallo di tempo in una determinata zona:
+- produzione: valore aggiunto di tutto l'output (beni più servizi) prodotto 
+- reddito: reddito ottenuto dai produttori dell'output
+- spesa: spesa totale dei compratori dell'output
+
+L'equivalenza dei 3 approcci viene rappresentata dall'**identità fondamentale della contabilità del reddito nazionale**
+
+$$ \text{valore aggiunto totale} = \text{ricavo totale} = \text{spesa totale} $$
+
+Il PIL (GDP) misura l'attività economica di tutti gli attori che hanno sede legale e fiscale entro i confini nazionali; il PNL(GNL) misura l'attività economica che produce output entro i confini nazionali. La differenza viene definita net factor payments from abroad, NFP, o net foreign factor income, NFFI,
+
+$$\text{NFP} := \text{GDP} - \text{GNP}$$
+
+
+
+### Altre variabili macroeconomiche: PIL, tasso di disoccupazione, tasso di inflazione; legge di Okun e curva di Phillips
 
 ## Il breve periodo
 ### Il mercato dei beni
@@ -41,8 +56,10 @@
 - Politica economica, monetaria e fiscale
 
 ## Basi
-- Storia: dalla necessità nel commercio e la partita doppia agli strumenti attualmente presenti
-- Concetti fondamentali: moneta,...
+### Storia: dalla necessità nel commercio e la partita doppia agli strumenti attualmente presenti
+### Concetti fondamentali e definizioni
+- Moneta:
+- 
 
 ## Attualità
 - Storia recente: Italia, Europa, US,...

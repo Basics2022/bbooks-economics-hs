@@ -65,6 +65,8 @@ const thebe_selector_input = "pre"
 const thebe_selector_output = ".output, .cell_output"
 </script>
     <script async="async" src="../_static/sphinx-thebe.js"></script>
+    <script>window.MathJax = {"options": {"processHtmlClass": "tex2jax_process|mathjax_process|math|output_area"}}</script>
+    <script defer="defer" src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
     <script>DOCUMENTATION_OPTIONS.pagename = 'ch/macro';</script>
     <link rel="shortcut icon" href="../_static/favicon.svg"/>
     <link rel="index" title="Indice" href="../genindex.html" />
@@ -382,7 +384,11 @@ document.write(`
             </div>
             <nav aria-label="Page">
                 <ul class="visible nav section-nav flex-column">
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#introduzione">2.1. Introduzione</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#introduzione">2.1. Introduzione</a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#misurazione-dell-attivita-economica-pil-e-pnl">2.1.1. Misurazione dell’attività economica, PIL e PNL</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#altre-variabili-macroeconomiche-pil-tasso-di-disoccupazione-tasso-di-inflazione-legge-di-okun-e-curva-di-phillips">2.1.2. Altre variabili macroeconomiche: PIL, tasso di disoccupazione, tasso di inflazione; legge di Okun e curva di Phillips</a></li>
+</ul>
+</li>
 <li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#il-breve-periodo">2.2. Il breve periodo</a><ul class="nav section-nav flex-column">
 <li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#il-mercato-dei-beni">2.2.1. Il mercato dei beni</a></li>
 <li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#i-mercati-finanziari">2.2.2. I mercati finanziari</a></li>
@@ -398,7 +404,11 @@ document.write(`
 </li>
 <li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#il-lungo-periodo">2.4. Il lungo periodo</a></li>
 <li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#altro">2.5. Altro</a></li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#basi">2.6. Basi</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#basi">2.6. Basi</a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#storia-dalla-necessita-nel-commercio-e-la-partita-doppia-agli-strumenti-attualmente-presenti">2.6.1. Storia: dalla necessità nel commercio e la partita doppia agli strumenti attualmente presenti</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#concetti-fondamentali-e-definizioni">2.6.2. Concetti fondamentali e definizioni</a></li>
+</ul>
+</li>
 <li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#attualita">2.7. Attualità</a></li>
 <li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#riferimenti">2.8. Riferimenti</a></li>
 </ul>
@@ -416,10 +426,24 @@ document.write(`
 <span id="economics-hs-macro"></span><h1><span class="section-number">2. </span>Macroeconomia<a class="headerlink" href="#macroeconomia" title="Permalink to this heading">#</a></h1>
 <div class="section" id="introduzione">
 <h2><span class="section-number">2.1. </span>Introduzione<a class="headerlink" href="#introduzione" title="Permalink to this heading">#</a></h2>
+<div class="section" id="misurazione-dell-attivita-economica-pil-e-pnl">
+<h3><span class="section-number">2.1.1. </span>Misurazione dell’attività economica, PIL e PNL<a class="headerlink" href="#misurazione-dell-attivita-economica-pil-e-pnl" title="Permalink to this heading">#</a></h3>
+<p>Esistono 3 possibili definizioni equivalenti con 3 approcci differenti del PIL/PNL, come misura dell’attività economica in un determinato intervallo di tempo in una determinata zona:</p>
 <ul class="simple">
-<li><p>Produzione aggregata, PIL</p></li>
-<li><p>Altre variabili macroeconomiche: tasso di disoccupazione, tasso di inflazione,…</p></li>
+<li><p>produzione: valore aggiunto di tutto l’output (beni più servizi) prodotto</p></li>
+<li><p>reddito: reddito ottenuto dai produttori dell’output</p></li>
+<li><p>spesa: spesa totale dei compratori dell’output</p></li>
 </ul>
+<p>L’equivalenza dei 3 approcci viene rappresentata dall”<strong>identità fondamentale della contabilità del reddito nazionale</strong></p>
+<div class="math notranslate nohighlight">
+\[ \text{valore aggiunto totale} = \text{ricavo totale} = \text{spesa totale} \]</div>
+<p>Il PIL (GDP) misura l’attività economica di tutti gli attori che hanno sede legale e fiscale entro i confini nazionali; il PNL(GNL) misura l’attività economica che produce output entro i confini nazionali. La differenza viene definita net factor payments from abroad, NFP, o net foreign factor income, NFFI,</p>
+<div class="math notranslate nohighlight">
+\[\text{NFP} := \text{GDP} - \text{GNP}\]</div>
+</div>
+<div class="section" id="altre-variabili-macroeconomiche-pil-tasso-di-disoccupazione-tasso-di-inflazione-legge-di-okun-e-curva-di-phillips">
+<h3><span class="section-number">2.1.2. </span>Altre variabili macroeconomiche: PIL, tasso di disoccupazione, tasso di inflazione; legge di Okun e curva di Phillips<a class="headerlink" href="#altre-variabili-macroeconomiche-pil-tasso-di-disoccupazione-tasso-di-inflazione-legge-di-okun-e-curva-di-phillips" title="Permalink to this heading">#</a></h3>
+</div>
 </div>
 <div class="section" id="il-breve-periodo">
 <h2><span class="section-number">2.2. </span>Il breve periodo<a class="headerlink" href="#il-breve-periodo" title="Permalink to this heading">#</a></h2>
@@ -494,10 +518,16 @@ document.write(`
 </div>
 <div class="section" id="basi">
 <h2><span class="section-number">2.6. </span>Basi<a class="headerlink" href="#basi" title="Permalink to this heading">#</a></h2>
+<div class="section" id="storia-dalla-necessita-nel-commercio-e-la-partita-doppia-agli-strumenti-attualmente-presenti">
+<h3><span class="section-number">2.6.1. </span>Storia: dalla necessità nel commercio e la partita doppia agli strumenti attualmente presenti<a class="headerlink" href="#storia-dalla-necessita-nel-commercio-e-la-partita-doppia-agli-strumenti-attualmente-presenti" title="Permalink to this heading">#</a></h3>
+</div>
+<div class="section" id="concetti-fondamentali-e-definizioni">
+<h3><span class="section-number">2.6.2. </span>Concetti fondamentali e definizioni<a class="headerlink" href="#concetti-fondamentali-e-definizioni" title="Permalink to this heading">#</a></h3>
 <ul class="simple">
-<li><p>Storia: dalla necessità nel commercio e la partita doppia agli strumenti attualmente presenti</p></li>
-<li><p>Concetti fondamentali: moneta,…</p></li>
+<li><p>Moneta:</p></li>
+<li></li>
 </ul>
+</div>
 </div>
 <div class="section" id="attualita">
 <h2><span class="section-number">2.7. </span>Attualità<a class="headerlink" href="#attualita" title="Permalink to this heading">#</a></h2>
@@ -570,7 +600,11 @@ document.write(`
   </div>
   <nav class="bd-toc-nav page-toc">
     <ul class="visible nav section-nav flex-column">
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#introduzione">2.1. Introduzione</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#introduzione">2.1. Introduzione</a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#misurazione-dell-attivita-economica-pil-e-pnl">2.1.1. Misurazione dell’attività economica, PIL e PNL</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#altre-variabili-macroeconomiche-pil-tasso-di-disoccupazione-tasso-di-inflazione-legge-di-okun-e-curva-di-phillips">2.1.2. Altre variabili macroeconomiche: PIL, tasso di disoccupazione, tasso di inflazione; legge di Okun e curva di Phillips</a></li>
+</ul>
+</li>
 <li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#il-breve-periodo">2.2. Il breve periodo</a><ul class="nav section-nav flex-column">
 <li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#il-mercato-dei-beni">2.2.1. Il mercato dei beni</a></li>
 <li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#i-mercati-finanziari">2.2.2. I mercati finanziari</a></li>
@@ -586,7 +620,11 @@ document.write(`
 </li>
 <li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#il-lungo-periodo">2.4. Il lungo periodo</a></li>
 <li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#altro">2.5. Altro</a></li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#basi">2.6. Basi</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#basi">2.6. Basi</a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#storia-dalla-necessita-nel-commercio-e-la-partita-doppia-agli-strumenti-attualmente-presenti">2.6.1. Storia: dalla necessità nel commercio e la partita doppia agli strumenti attualmente presenti</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#concetti-fondamentali-e-definizioni">2.6.2. Concetti fondamentali e definizioni</a></li>
+</ul>
+</li>
 <li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#attualita">2.7. Attualità</a></li>
 <li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#riferimenti">2.8. Riferimenti</a></li>
 </ul>
