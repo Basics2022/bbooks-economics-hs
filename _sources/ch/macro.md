@@ -151,9 +151,9 @@ con:
 
 $$Y = A N$$
 
-- $Y$ output [$\$$]
-- $N$ occupazione [$\text{n. ore lavorate}$]
-- $A$ produttività [$\frac{\$}{\text{n. ore lavorate}}$]
+- $Y$ output $\left[\$\right]$
+- $N$ occupazione $\left[\text{n. ore lavorate}\right]$
+- $A$ produttività $\left[\frac{\$}{\text{n. ore lavorate}}\right]$
 
 Prezzi
 $P = (1+m) W$
