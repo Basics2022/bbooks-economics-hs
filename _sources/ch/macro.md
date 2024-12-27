@@ -138,9 +138,13 @@ Vedi anche curva di Phillips nell'ambito del [mercato del lavoro nel medio perio
 $$W = P^e F(u,z)$$
 
 - $W$ livello nominale dei salari aggregati
-- $P^e$ livelli di prezzo attesi (vedi [attese - prezzi]())
+- $P^e$ livelli di prezzo attesi (vedi [aspettative - prezzi](economics-hs:macro:extra:expectations)), poiché il lavoratore è interessato (o dovrebbe esserlo) alla retribuzione reale e non nominale
 - $u$ tasso di disoccupazione
-- $z$ variabile "catchall" che include tutti gli atrli fattori che possono influenzare i salari
+- $z$ variabile "catchall" che include tutti gli altri fattori che possono influenzare i salari
+
+con:
+- $\partial_u F < 0$, all'aumentare della disoccupazione diminuisce il potere contrattuale (aggregato) dei lavoratori 
+- $\partial_z F > 0$ per definizione
 ```
 
 ```{dropdown} Determinazione dei prezzi
