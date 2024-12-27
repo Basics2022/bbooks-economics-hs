@@ -1,2 +1,2 @@
 (economics-hs:micro)=
-# Microeconomia
+# Introduzione alla microeconomia

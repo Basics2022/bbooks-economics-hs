@@ -1,5 +1,5 @@
 (economics-hs:macro)=
-# Macroeconomia
+# Introduzione alla macroeconomia
 
 ## Introduzione
 ```{dropdown} Soggetti economici:
@@ -43,9 +43,9 @@
 
 ### Misurazione dell'attività economica, PIL e PNL
 Esistono 3 possibili definizioni equivalenti con 3 approcci differenti del PIL/PNL, come misura dell'attività economica in un determinato intervallo di tempo in una determinata zona:
-- produzione: valore aggiunto di tutto l'output (beni più servizi) prodotto 
-- reddito: reddito ottenuto dai produttori dell'output
-- spesa: spesa totale dei compratori dell'output
+1. produzione: valore aggiunto di tutto l'output (beni più servizi) prodotto 
+2. reddito: reddito ottenuto dai produttori dell'output
+3. spesa: spesa totale dei compratori dell'output
 
 L'equivalenza dei 3 approcci viene rappresentata dall'**identità fondamentale della contabilità del reddito nazionale**
 
