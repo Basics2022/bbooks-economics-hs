@@ -91,6 +91,18 @@ $$P_t = \frac{\$ Y_t}{Y_t} \ .$$
 
 (economics-hs:macro:intro:macro-vars:okun)=
 #### Legge di Okun
+Relazione tra variazione percentuale dell'output e variazione percentuale della disoccupazione,
+
+$$\frac{\bar{Y} - Y}{\bar{Y}} = c ( u - \bar{u} ) \ ,$$
+
+con:
+- $\bar{Y}$ output potenziale
+- $Y$ output misurato
+- $c$ costante di proporzionalità positiva. 
+- $u$ tasso di disoccupazione
+- $\bar{u}$ tasso di disoccupazione naturale
+
+$$\frac{\Delta Y}{Y} = k - c \Delta u \ .$$
 
 (economics-hs:macro:intro:macro-vars:phillips)=
 #### Curva di Phillips
