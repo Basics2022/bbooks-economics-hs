@@ -207,6 +207,13 @@ Influenza dei parametri:
 
 $$Y = Y\left(\frac{M}{P}, G, T \right)$$ (eq:ad)
 
+Influenza dei parametri:
+- ...
+
+**Equilibrio nel corto e medio periodo.**
+
+
+
 (economics-hs:macro:medium-run:unemployment:phillips)=
 ### Il tasso naturale di disoccupazione e la curva di Phillips
 
@@ -225,6 +232,19 @@ Vedi anche [Introduzione alla curva di Phillips](economics-hs:macro:intro:macro-
 
 (economics-hs:macro:long-run:progress)=
 ### Progresso tecnologico e crescita
+
+L'output $Y$ risulta funzione dei capitali $K$ e del lavoro (nell'effetto combinato di occupazione, $N$, e produttività, $A$)
+
+$$Y = Y(K,N,A) = Y(K, NA)$$ (eq:progress-output)
+
+Il progresso tecnologico fa aumentare $A$. Si può riscrivere la relazione {eq}`eq:progress-output` in funzione di output e capitali per *lavoratore "effettivo"*, $AN$,
+
+$$\frac{Y}{AN} = y \left( \frac{K}{NA} \right)$$
+
+Se gli investimenti uguagliano i risparmi dei privati e il tasso di risparmio è costante, allora $I = S = s Y$. Dividendo per $AN$ si ottiene
+
+$$\frac{I}{AN} = s \frac{Y}{AN}$$
+
 
 (economics-hs:macro:extra)=
 ## Altro
