@@ -129,18 +129,27 @@ Vedi anche curva di Phillips nell'ambito del [mercato del lavoro nel medio perio
 (economics-hs:macro:medium-run:jobs-market)=
 ### Il mercato del lavoro
 
-#### Definizioni e statistiche
-- Forza lavoro, occupazione, disoccupazione; ore lavorate;
+(economics-hs:macro:medium-run:jobs-market:stats)=
+```{dropdown} Misure nel mercato del lavoro
+- Forza lavoro $L$, occupazione $N$, disoccupazione, $U$, tasso di disoccupazione $u$; ore lavorate;...
+
+$$L = N + U$$
+
+$$u := \frac{U}{L} = 1 - \frac{N}{L}$$
+
+$$N = L (1 - u)$$
+
+```
 
 (economics-hs:macro:medium-run:jobs-market:wages)=
 ```{dropdown} Determinazione dei salari
 
-$$W = P^e F(u,z)$$
+$$W = P^e F(u,z)$$ (eq:wages-prices)
 
 - $W$ livello nominale dei salari aggregati
 - $P^e$ livelli di prezzo attesi (vedi [aspettative - prezzi](economics-hs:macro:extra:expectations)), poiché il lavoratore è interessato (o dovrebbe esserlo) alla retribuzione reale e non nominale
 - $u$ tasso di disoccupazione
-- $z$ variabile "catchall" che include tutti gli altri fattori che possono influenzare i salari
+- $z$ variabile "catchall" che include tutti gli altri fattori che possono influenzare i salari; ad esempio protezione sociale per disoccupazione, inoccupazione
 
 con:
 - $\partial_u F < 0$, all'aumentare della disoccupazione diminuisce il potere contrattuale (aggregato) dei lavoratori 
@@ -151,14 +160,27 @@ con:
 
 $$Y = A N$$
 
-- $Y$ output $\left[\$\right]$
-- $N$ occupazione $\left[\text{n. ore lavorate}\right]$
-- $A$ produttività $\left[\frac{\$}{\text{n. ore lavorate}}\right]$
+- $Y$ output, $\left[\$\right]$
+- $N$ occupazione, $\left[\text{n. ore lavorate}\right]$ o altre [misure del lavoro](economics-hs:macro:medium-run:jobs-market:stats)
+- $A$ produttività, $\left[\frac{\$}{\text{n. ore lavorate}}\right]$, o riferito a altre misure del lavoro; dipende dallo sviluppo tecnologico](economics-hs:macro:long-run:progress)
 
-Prezzi
-$P = (1+m) W$
+Prezzi, in funzione del livello dei salari, del numero di dipendenti, del costo della materia prima, e del markup $m$ dell'azienda $\frac{\text{prezzo}}{\text{cost}}$, che dipende dal potere dell'azienda di fare il prezzo nel mercato. Nell'ipotesi che il costo della materia prima possa essere incorporato nel markup $m$, si può (*sì? in quali condizioni? ha senso nascondere il costo della materia prima nel markup? In generale non è detto che questo sia un effetto lineare con i salari...*)
+
+$$P = (1+m) W$$ (eq:prices-wages)
 
 ```
+
+Usando le due relazioni {eq}`eq:wages-prices`, {eq}`eq:prices-wages` si può determinare il punto di equilibrio in cui il valore del rapporto $\left(\frac{W}{P} \right)$ è uguale nella formazione dei salari e dei prezzi,
+
+$$\begin{aligned}
+ \left( \frac{W}{P} \right)_{\text{wages}} & = \left( \frac{W}{P} \right)_{{prices}} \\
+ \frac{P^e}{P} F(u, z) & = \frac{1}{1+m} \\
+\end{aligned}$$ (eq:wages-prices:equil)
+
+da cui si ricava la definizione di **tasso di disoccupazione naturale**, $u_n$, come il tasso di disoccupazione per il quale è valida la condizione di equilibrio {eq}`eq:wages-prices:equil`, a condizioni fissate di $z$, $\frac{P^e}{P}$ (legata all'inflazione attesa), $m$.
+
+**Influenza di $z$, $\pi$, $m$ sui salari reali $\frac{W}{P}$ e su tasso di disoccupazione naturale.**
+...**todo**...
 
 (economics-hs:macro:medium-run:as-ad)=
 ### Offerta e domanda aggregata: il modello AS-AD
@@ -176,8 +198,11 @@ Vedi anche [Introduzione alla curva di Phillips](economics-hs:macro:intro:macro-
 (economics-hs:macro:long-run)=
 ## Il lungo periodo
 - Storia
-- Risparmio, accumulazione di capitale e produzione
-- Progresso tecnologico e crescita
+(economics-hs:macro:long-run:savings)=
+### Risparmio, accumulazione di capitale e produzione
+
+(economics-hs:macro:long-run:progress)=
+### Progresso tecnologico e crescita
 
 (economics-hs:macro:extra)=
 ## Altro
