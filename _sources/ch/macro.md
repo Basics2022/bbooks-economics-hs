@@ -116,8 +116,35 @@ Vedi anche curva di Phillips nell'ambito del [mercato del lavoro nel medio perio
 ## Il breve periodo
 (economics-hs:macro:short-run:goods-market)=
 ### Il mercato dei beni
+Domanda di beni $Z$, offerta di beni $Y$
+
+$$Z = C + I + G + NX - In$$
+
+- Consumo $C$.
+  - Dipende dal reddito disponibile $Y_d$, cioè del reddito al netto delle tasse $T$, $Y_d = Y - T$,
+    
+    $$C(Y_d)$$
+
+  - $\partial_{Y_d} C > 0$
+
+- Investimenti $I$, esclude inventario $In$ trattato a parte
+- Spesa pubblica $G$, esclude trasferimenti poiché non sono acquisto di beni/servizi (ma fanno parte del reddito di altri attori economici)
+- Export netto $NX = Ex - Im$
+- Inventario $In$
+
+**Equilibrio.** All'equilibrio di domanda e offerta di beni, $Y = Z$,
 
 $$Y = C(Y-T) + I(Y,i) + G + NX$$
+
+**Approssimazioni.** Nel caso di funzione di consumo lineare con il reddito disponibili, $C = c_0 + c_1 (Y- T)$,
+
+$$Z = c_0 + c_1 (Y-T) + I + G = \underbrace{c_0 + I + G - c_1 T}_{\text{autonomous spending}} + c_1 Y \ ,$$
+
+si può ricavare in maniera esplicita l'output in funzione della tassazione, degli investimenti e della spesa pubblica, in condizioni di equilibrio $Y = Z$
+
+$$Y = \frac{1}{1-c_1} \left[ c_0 + I + G - c_1 T \right] \ ,$$
+
+e valutare le sensibilità di $Y$ a questi parametri/variabili. **todo** *bla bla sui moltiplicatori*
 
 (economics-hs:macro:short-run:financial-market)=
 ### I mercati finanziari
