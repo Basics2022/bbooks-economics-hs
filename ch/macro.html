@@ -402,7 +402,11 @@ document.write(`
 </ul>
 </li>
 <li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#il-breve-periodo">2.2. Il breve periodo</a><ul class="nav section-nav flex-column">
-<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#il-mercato-dei-beni">2.2.1. Il mercato dei beni</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#il-mercato-dei-beni">2.2.1. Il mercato dei beni</a><ul class="nav section-nav flex-column">
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#produzione-domanda">2.2.1.1. Produzione = Domanda</a></li>
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#investimento-risparmio">2.2.1.2. Investimento = Risparmio</a></li>
+</ul>
+</li>
 <li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#i-mercati-finanziari">2.2.2. I mercati finanziari</a></li>
 <li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#il-modello-is-lm">2.2.3. Il modello IS-LM</a></li>
 </ul>
@@ -602,6 +606,8 @@ Storia del pensiero e delle teorie economiche<div class="sd-summary-down docutil
 <span id="economics-hs-macro-short-run"></span><h2><span class="section-number">2.2. </span>Il breve periodo<a class="headerlink" href="#il-breve-periodo" title="Permalink to this heading">#</a></h2>
 <div class="section" id="il-mercato-dei-beni">
 <span id="economics-hs-macro-short-run-goods-market"></span><h3><span class="section-number">2.2.1. </span>Il mercato dei beni<a class="headerlink" href="#il-mercato-dei-beni" title="Permalink to this heading">#</a></h3>
+<div class="section" id="produzione-domanda">
+<span id="economics-hs-macro-short-run-goods-market-y-z"></span><h4><span class="section-number">2.2.1.1. </span>Produzione = Domanda<a class="headerlink" href="#produzione-domanda" title="Permalink to this heading">#</a></h4>
 <p>Domanda di beni <span class="math notranslate nohighlight">\(Z\)</span>, offerta di beni <span class="math notranslate nohighlight">\(Y\)</span></p>
 <div class="math notranslate nohighlight">
 \[Z = C + I + G + \text{NX} - \text{In}\]</div>
@@ -620,16 +626,32 @@ Storia del pensiero e delle teorie economiche<div class="sd-summary-down docutil
 <li><p>Export netto <span class="math notranslate nohighlight">\(\text{NX} = \text{Ex} - \text{Im}\)</span></p></li>
 <li><p>Inventario <span class="math notranslate nohighlight">\(\text{In}\)</span></p></li>
 </ul>
-<p><strong>Equilibrio.</strong> All’equilibrio di domanda e offerta di beni, <span class="math notranslate nohighlight">\(Y = Z\)</span>,</p>
-<div class="math notranslate nohighlight">
-\[Y = C(Y-T) + I(Y,i) + G + NX\]</div>
+<p><strong>Equilibrio.</strong> All’equilibrio di domanda e offerta di beni, <span class="math notranslate nohighlight">\(Y^* = Z(Y^*)\)</span>,</p>
+<div class="math notranslate nohighlight" id="equation-eq-goods-zy">
+<span class="eqno">(2.1)<a class="headerlink" href="#equation-eq-goods-zy" title="Permalink a questa equazione">#</a></span>\[Y^* = C(Y-T) + I(Y^*,i) + G + \text{NX}\]</div>
 <p><strong>Approssimazioni.</strong> Nel caso di funzione di consumo lineare con il reddito disponibili, <span class="math notranslate nohighlight">\(C = c_0 + c_1 (Y- T)\)</span>,</p>
 <div class="math notranslate nohighlight">
 \[Z = c_0 + c_1 (Y-T) + I + G = \underbrace{c_0 + I + G - c_1 T}_{\text{autonomous spending}} + c_1 Y \ ,\]</div>
 <p>si può ricavare in maniera esplicita l’output in funzione della tassazione, degli investimenti e della spesa pubblica, in condizioni di equilibrio <span class="math notranslate nohighlight">\(Y = Z\)</span></p>
 <div class="math notranslate nohighlight">
-\[Y = \frac{1}{1-c_1} \left[ c_0 + I + G - c_1 T \right] \ ,\]</div>
+\[Y^* = \frac{1}{1-c_1} \left[ c_0 + I + G - c_1 T \right] \ ,\]</div>
 <p>e valutare le sensibilità di <span class="math notranslate nohighlight">\(Y\)</span> a questi parametri/variabili. <strong>todo</strong> <em>bla bla sui moltiplicatori</em></p>
+</div>
+<div class="section" id="investimento-risparmio">
+<span id="economics-hs-macro-short-run-goods-market-i-s"></span><h4><span class="section-number">2.2.1.2. </span>Investimento = Risparmio<a class="headerlink" href="#investimento-risparmio" title="Permalink to this heading">#</a></h4>
+<ul class="simple">
+<li><p>Risparmio privato, <span class="math notranslate nohighlight">\(S = Y_d - C = Y - T - C\)</span></p></li>
+<li><p>Risparmio pubblico, <span class="math notranslate nohighlight">\(S_{pub} = T - G\)</span></p></li>
+</ul>
+<p>al netto dell’import/export e dell’inventario, esplicitando il contributo degli investimenti <span class="math notranslate nohighlight">\(I\)</span> dalla relazione produzione=domanda del PIL <a class="reference internal" href="#equation-eq-goods-zy">(2.1)</a>, si ottiene la relazione</p>
+<div class="math notranslate nohighlight" id="equation-eq-goods-is">
+<span class="eqno">(2.2)<a class="headerlink" href="#equation-eq-goods-is" title="Permalink a questa equazione">#</a></span>\[\begin{split}\begin{aligned}
+  I &amp; = Y - C - G = \\
+    &amp; = Y - C -  T + ( T - G ) = \\
+    &amp; = S + S_{pub} 
+\end{aligned}\end{split}\]</div>
+<p>che prevede l’uguaglianza tra investimenti e risparmio (somma di privato e pubblico) in condizioni di equilibrio.</p>
+</div>
 </div>
 <div class="section" id="i-mercati-finanziari">
 <span id="economics-hs-macro-short-run-financial-market"></span><h3><span class="section-number">2.2.2. </span>I mercati finanziari<a class="headerlink" href="#i-mercati-finanziari" title="Permalink to this heading">#</a></h3>
@@ -677,7 +699,7 @@ Determinazione dei salari<div class="sd-summary-down docutils">
 <svg version="1.1" width="1.5em" height="1.5em" class="sd-octicon sd-octicon-chevron-up" viewBox="0 0 24 24" aria-hidden="true"><path fill-rule="evenodd" d="M18.78 15.28a.75.75 0 000-1.06l-6.25-6.25a.75.75 0 00-1.06 0l-6.25 6.25a.75.75 0 101.06 1.06L12 9.56l5.72 5.72a.75.75 0 001.06 0z"></path></svg></div>
 </summary><div class="sd-summary-content sd-card-body docutils">
 <div class="math notranslate nohighlight" id="equation-eq-wages-prices">
-<span class="eqno">(2.1)<a class="headerlink" href="#equation-eq-wages-prices" title="Permalink a questa equazione">#</a></span>\[W = P^e F(u,z)\]</div>
+<span class="eqno">(2.3)<a class="headerlink" href="#equation-eq-wages-prices" title="Permalink a questa equazione">#</a></span>\[W = P^e F(u,z)\]</div>
 <ul class="simple">
 <li><p class="sd-card-text"><span class="math notranslate nohighlight">\(W\)</span> livello nominale dei salari aggregati</p></li>
 <li><p class="sd-card-text"><span class="math notranslate nohighlight">\(P^e\)</span> livelli di prezzo attesi (vedi <a class="reference internal" href="#economics-hs-macro-extra-expectations"><span class="std std-ref">aspettative - prezzi</span></a>), poiché il lavoratore è interessato (o dovrebbe esserlo) alla retribuzione reale e non nominale</p></li>
@@ -706,23 +728,23 @@ Determinazione dei prezzi<div class="sd-summary-down docutils">
 </ul>
 <p class="sd-card-text">Prezzi, in funzione del livello dei salari, del numero di dipendenti, del costo della materia prima, e del markup <span class="math notranslate nohighlight">\(m\)</span> dell’azienda <span class="math notranslate nohighlight">\(\frac{\text{prezzo}}{\text{cost}}\)</span>, che dipende dal potere dell’azienda di fare il prezzo nel mercato. Nell’ipotesi che il costo della materia prima possa essere incorporato nel markup <span class="math notranslate nohighlight">\(m\)</span>, si può (<em>sì? in quali condizioni? ha senso nascondere il costo della materia prima nel markup? In generale non è detto che questo sia un effetto lineare con i salari…</em>)</p>
 <div class="math notranslate nohighlight" id="equation-eq-prices-wages">
-<span class="eqno">(2.2)<a class="headerlink" href="#equation-eq-prices-wages" title="Permalink a questa equazione">#</a></span>\[P = (1+m) W\]</div>
+<span class="eqno">(2.4)<a class="headerlink" href="#equation-eq-prices-wages" title="Permalink a questa equazione">#</a></span>\[P = (1+m) W\]</div>
 </div>
-</details><p>Usando le due relazioni <a class="reference internal" href="#equation-eq-wages-prices">(2.1)</a>, <a class="reference internal" href="#equation-eq-prices-wages">(2.2)</a> si può determinare il punto di equilibrio in cui il valore del rapporto <span class="math notranslate nohighlight">\(\left(\frac{W}{P} \right)\)</span> è uguale nella formazione dei salari e dei prezzi,</p>
+</details><p>Usando le due relazioni <a class="reference internal" href="#equation-eq-wages-prices">(2.3)</a>, <a class="reference internal" href="#equation-eq-prices-wages">(2.4)</a> si può determinare il punto di equilibrio in cui il valore del rapporto <span class="math notranslate nohighlight">\(\left(\frac{W}{P} \right)\)</span> è uguale nella formazione dei salari e dei prezzi,</p>
 <div class="math notranslate nohighlight" id="equation-eq-wages-prices-equil">
-<span class="eqno">(2.3)<a class="headerlink" href="#equation-eq-wages-prices-equil" title="Permalink a questa equazione">#</a></span>\[\begin{split}\begin{aligned}
+<span class="eqno">(2.5)<a class="headerlink" href="#equation-eq-wages-prices-equil" title="Permalink a questa equazione">#</a></span>\[\begin{split}\begin{aligned}
  \left( \frac{W}{P} \right)_{\text{wages}} &amp; = \left( \frac{W}{P} \right)_{{prices}} \\
  \frac{P^e}{P} F(u, z) &amp; = \frac{1}{1+m} \\
 \end{aligned}\end{split}\]</div>
-<p>da cui si ricava la definizione di <strong>tasso di disoccupazione naturale</strong>, <span class="math notranslate nohighlight">\(u_n\)</span>, come il tasso di disoccupazione per il quale è valida la condizione di equilibrio <a class="reference internal" href="#equation-eq-wages-prices-equil">(2.3)</a>, a condizioni fissate di <span class="math notranslate nohighlight">\(z\)</span>, <span class="math notranslate nohighlight">\(\frac{P^e}{P}\)</span> (legata all’inflazione attesa), <span class="math notranslate nohighlight">\(m\)</span>.</p>
+<p>da cui si ricava la definizione di <strong>tasso di disoccupazione naturale</strong>, <span class="math notranslate nohighlight">\(u_n\)</span>, come il tasso di disoccupazione per il quale è valida la condizione di equilibrio <a class="reference internal" href="#equation-eq-wages-prices-equil">(2.5)</a>, a condizioni fissate di <span class="math notranslate nohighlight">\(z\)</span>, <span class="math notranslate nohighlight">\(\frac{P^e}{P}\)</span> (legata all’inflazione attesa), <span class="math notranslate nohighlight">\(m\)</span>.</p>
 <p><strong>Influenza di <span class="math notranslate nohighlight">\(z\)</span>, <span class="math notranslate nohighlight">\(\pi\)</span>, <span class="math notranslate nohighlight">\(m\)</span> sui salari reali <span class="math notranslate nohighlight">\(\frac{W}{P}\)</span> e su tasso di disoccupazione naturale.</strong>
 …<strong>todo</strong>…</p>
 </div>
 <div class="section" id="offerta-e-domanda-aggregata-il-modello-as-ad">
 <span id="economics-hs-macro-medium-run-as-ad"></span><h3><span class="section-number">2.3.2. </span>Offerta e domanda aggregata: il modello AS-AD<a class="headerlink" href="#offerta-e-domanda-aggregata-il-modello-as-ad" title="Permalink to this heading">#</a></h3>
-<p><strong>AS, Aggregate Supply.</strong> Dalle relazioni per la formazione dei salari <a class="reference internal" href="#equation-eq-wages-prices">(2.1)</a> e dei prezzi <a class="reference internal" href="#equation-eq-prices-wages">(2.2)</a>, eliminando la variabile dei salari, <span class="math notranslate nohighlight">\(W\)</span>, ed usando la relazione tra tasso di disoccupazione e output</p>
+<p><strong>AS, Aggregate Supply.</strong> Dalle relazioni per la formazione dei salari <a class="reference internal" href="#equation-eq-wages-prices">(2.3)</a> e dei prezzi <a class="reference internal" href="#equation-eq-prices-wages">(2.4)</a>, eliminando la variabile dei salari, <span class="math notranslate nohighlight">\(W\)</span>, ed usando la relazione tra tasso di disoccupazione e output</p>
 <div class="math notranslate nohighlight" id="equation-eq-as">
-<span class="eqno">(2.4)<a class="headerlink" href="#equation-eq-as" title="Permalink a questa equazione">#</a></span>\[P = P^e (1+m) F(u,z) = P^e (1+m) \left( 1-\frac{Y}{A L}, z \right)\]</div>
+<span class="eqno">(2.6)<a class="headerlink" href="#equation-eq-as" title="Permalink a questa equazione">#</a></span>\[P = P^e (1+m) F(u,z) = P^e (1+m) \left( 1-\frac{Y}{A L}, z \right)\]</div>
 <p>Influenza dei parametri:</p>
 <ul class="simple">
 <li><p><span class="math notranslate nohighlight">\(\partial_{P^e} P = (1+m) F(u,z) &gt; 0\)</span></p></li>
@@ -733,7 +755,7 @@ Determinazione dei prezzi<div class="sd-summary-down docutils">
 </ul>
 <p><strong>AD, Aggregate Demand.</strong> Dal <a class="reference internal" href="#economics-hs-macro-short-run-goods-market"><span class="std std-ref">mercato dei beni</span></a>, l’output dipende dal consumo (che a sua volta dipende dal reddito disponibile, <span class="math notranslate nohighlight">\(Y- T\)</span>), dagli investimenti (che dipendono dall’output e dai tassi di interesse) e dalla spesa pubblica, <span class="math notranslate nohighlight">\(Y = C(Y-T) + I(Y,i) + G + NX\)</span>. Dal <a class="reference internal" href="#economics-hs-macro-short-run-financial-market"><span class="std std-ref">mercato finanziario</span></a>, <span class="math notranslate nohighlight">\(\frac{M}{P} = Y L(i)\)</span>. Assumendo trascurabile il contributo dell’export netto, <strong>todo</strong>…</p>
 <div class="math notranslate nohighlight" id="equation-eq-ad">
-<span class="eqno">(2.5)<a class="headerlink" href="#equation-eq-ad" title="Permalink a questa equazione">#</a></span>\[Y = Y\left(\frac{M}{P}, G, T \right)\]</div>
+<span class="eqno">(2.7)<a class="headerlink" href="#equation-eq-ad" title="Permalink a questa equazione">#</a></span>\[Y = Y\left(\frac{M}{P}, G, T \right)\]</div>
 <p>Influenza dei parametri:</p>
 <ul class="simple">
 <li><p>…</p></li>
@@ -761,8 +783,8 @@ Determinazione dei prezzi<div class="sd-summary-down docutils">
 <span id="economics-hs-macro-long-run-progress"></span><h3><span class="section-number">2.4.2. </span>Progresso tecnologico e crescita<a class="headerlink" href="#progresso-tecnologico-e-crescita" title="Permalink to this heading">#</a></h3>
 <p>L’output <span class="math notranslate nohighlight">\(Y\)</span> risulta funzione dei capitali <span class="math notranslate nohighlight">\(K\)</span> e del lavoro (nell’effetto combinato di occupazione, <span class="math notranslate nohighlight">\(N\)</span>, e produttività, <span class="math notranslate nohighlight">\(A\)</span>)</p>
 <div class="math notranslate nohighlight" id="equation-eq-progress-output">
-<span class="eqno">(2.6)<a class="headerlink" href="#equation-eq-progress-output" title="Permalink a questa equazione">#</a></span>\[Y = Y(K,N,A) = Y(K, NA)\]</div>
-<p>Il progresso tecnologico fa aumentare <span class="math notranslate nohighlight">\(A\)</span>. Si può riscrivere la relazione <a class="reference internal" href="#equation-eq-progress-output">(2.6)</a> in funzione di output e capitali per <em>lavoratore «effettivo»</em>, <span class="math notranslate nohighlight">\(AN\)</span>,</p>
+<span class="eqno">(2.8)<a class="headerlink" href="#equation-eq-progress-output" title="Permalink a questa equazione">#</a></span>\[Y = Y(K,N,A) = Y(K, NA)\]</div>
+<p>Il progresso tecnologico fa aumentare <span class="math notranslate nohighlight">\(A\)</span>. Si può riscrivere la relazione <a class="reference internal" href="#equation-eq-progress-output">(2.8)</a> in funzione di output e capitali per <em>lavoratore «effettivo»</em>, <span class="math notranslate nohighlight">\(AN\)</span>,</p>
 <div class="math notranslate nohighlight">
 \[\frac{Y}{AN} = y \left( \frac{K}{NA} \right)\]</div>
 <p>Se gli investimenti uguagliano i risparmi dei privati e il tasso di risparmio è costante, allora <span class="math notranslate nohighlight">\(I = S = s Y\)</span>. Dividendo per <span class="math notranslate nohighlight">\(AN\)</span> si ottiene</p>
@@ -909,7 +931,11 @@ Determinazione dei prezzi<div class="sd-summary-down docutils">
 </ul>
 </li>
 <li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#il-breve-periodo">2.2. Il breve periodo</a><ul class="nav section-nav flex-column">
-<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#il-mercato-dei-beni">2.2.1. Il mercato dei beni</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#il-mercato-dei-beni">2.2.1. Il mercato dei beni</a><ul class="nav section-nav flex-column">
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#produzione-domanda">2.2.1.1. Produzione = Domanda</a></li>
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#investimento-risparmio">2.2.1.2. Investimento = Risparmio</a></li>
+</ul>
+</li>
 <li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#i-mercati-finanziari">2.2.2. I mercati finanziari</a></li>
 <li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#il-modello-is-lm">2.2.3. Il modello IS-LM</a></li>
 </ul>

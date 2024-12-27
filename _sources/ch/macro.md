@@ -116,6 +116,9 @@ Vedi anche curva di Phillips nell'ambito del [mercato del lavoro nel medio perio
 ## Il breve periodo
 (economics-hs:macro:short-run:goods-market)=
 ### Il mercato dei beni
+
+(economics-hs:macro:short-run:goods-market:y-z)=
+#### Produzione = Domanda
 Domanda di beni $Z$, offerta di beni $Y$
 
 $$Z = C + I + G + \text{NX} - \text{In}$$
@@ -132,9 +135,9 @@ $$Z = C + I + G + \text{NX} - \text{In}$$
 - Export netto $\text{NX} = \text{Ex} - \text{Im}$
 - Inventario $\text{In}$
 
-**Equilibrio.** All'equilibrio di domanda e offerta di beni, $Y = Z$,
+**Equilibrio.** All'equilibrio di domanda e offerta di beni, $Y^* = Z(Y^*)$,
 
-$$Y = C(Y-T) + I(Y,i) + G + NX$$
+$$Y^* = C(Y-T) + I(Y^*,i) + G + \text{NX}$$ (eq:goods:zy)
 
 **Approssimazioni.** Nel caso di funzione di consumo lineare con il reddito disponibili, $C = c_0 + c_1 (Y- T)$,
 
@@ -142,9 +145,27 @@ $$Z = c_0 + c_1 (Y-T) + I + G = \underbrace{c_0 + I + G - c_1 T}_{\text{autonomo
 
 si può ricavare in maniera esplicita l'output in funzione della tassazione, degli investimenti e della spesa pubblica, in condizioni di equilibrio $Y = Z$
 
-$$Y = \frac{1}{1-c_1} \left[ c_0 + I + G - c_1 T \right] \ ,$$
+$$Y^* = \frac{1}{1-c_1} \left[ c_0 + I + G - c_1 T \right] \ ,$$
 
 e valutare le sensibilità di $Y$ a questi parametri/variabili. **todo** *bla bla sui moltiplicatori*
+
+(economics-hs:macro:short-run:goods-market:i-s)=
+#### Investimento = Risparmio
+
+- Risparmio privato, $S = Y_d - C = Y - T - C$
+- Risparmio pubblico, $S_{pub} = T - G$
+
+al netto dell'import/export e dell'inventario, esplicitando il contributo degli investimenti $I$ dalla relazione produzione=domanda del PIL {eq}`eq:goods:zy`, si ottiene la relazione 
+
+$$\begin{aligned}
+  I & = Y - C - G = \\
+    & = Y - C -  T + ( T - G ) = \\
+    & = S + S_{pub} 
+\end{aligned}$$ (eq:goods:is)
+
+che prevede l'uguaglianza tra investimenti e risparmio (somma di privato e pubblico) in condizioni di equilibrio.
+
+
 
 (economics-hs:macro:short-run:financial-market)=
 ### I mercati finanziari
