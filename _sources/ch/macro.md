@@ -203,7 +203,7 @@ Influenza dei parametri:
 - $\partial_{Y} u = - \frac{1}{A L} < 0$, e quindi $\partial_Y P = - P^e (1+m) \frac{1}{AL} \partial_u F > 0$
 - $\partial_{A} u = \frac{Y}{A^2 L} > 0$, e quindi $\partial_Y P = P^e (1+m) \frac{1}{A^2 L} \partial_u F < 0$
 
-**AD, Aggregate Demand.** Dal [mercato dei beni](economics-hs:macro:short-run:goods-market), l'output dipende dal consumo (che a sua volta dipende dal reddito disponibile, $Y- T$), dagli investimenti (che dipendono dall'output e dai tassi di interesse) e dalla spesa pubblica, $$Y = C(Y-T) + I(Y,i) + G + NX$$. Dal [mercato finanziario](economics-hs:macro:short-run:financial-market), $$\frac{M}{P} = Y L(i)$$. Assumendo trascurabile il contributo dell'export netto, **todo**...
+**AD, Aggregate Demand.** Dal [mercato dei beni](economics-hs:macro:short-run:goods-market), l'output dipende dal consumo (che a sua volta dipende dal reddito disponibile, $Y- T$), dagli investimenti (che dipendono dall'output e dai tassi di interesse) e dalla spesa pubblica, $Y = C(Y-T) + I(Y,i) + G + NX$. Dal [mercato finanziario](economics-hs:macro:short-run:financial-market), $\frac{M}{P} = Y L(i)$. Assumendo trascurabile il contributo dell'export netto, **todo**...
 
 $$Y = Y\left(\frac{M}{P}, G, T \right)$$ (eq:ad)
 
