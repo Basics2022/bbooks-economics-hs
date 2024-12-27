@@ -75,6 +75,15 @@ Spese totali che formano il PIL, $Y$, sono di 4 tipi:
 
 ### Altre variabili macroeconomiche: PIL, tasso di disoccupazione, tasso di inflazione; legge di Okun e curva di Phillips
 
+#### Inflazione
+**Price level.** Il livello dei prezzi traccia l'andamento di prezzo di un bene o servizio (o beni e servizi equivalenti) nel tempo. L'Inflazione è definita come l'aumento percentuale del livello dei prezzi. Esistono principalmente due misure del livello dei prezzi: il deflatore del PIL e il CPI.
+
+**Deflatore del PIL.** Nel periodo $t$, il deflatore del PIL è definito come il rapporto tra il PIL nominale e il PIL reale,
+
+$$P_t = \frac{\$ Y_t}{Y_t} \ ,$$
+
+**CPI, Consumer Price Index.**
+
 ## Il breve periodo
 ### Il mercato dei beni
 ### I mercati finanziari
