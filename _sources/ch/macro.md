@@ -149,6 +149,15 @@ con:
 
 ```{dropdown} Determinazione dei prezzi
 
+$$Y = A N$$
+
+- $Y$ output [$\$$]
+- $N$ occupazione [$\text{n. ore lavorate}$]
+- $A$ produttività [$\frac{\$}{\text{n. ore lavorate}}$]
+
+Prezzi
+$P = (1+m) W$
+
 ```
 
 (economics-hs:macro:medium-run:as-ad)=
