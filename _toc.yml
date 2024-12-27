@@ -3,3 +3,13 @@
 
 format: jb-book
 root: intro
+  numbered: True
+parts:
+- caption: Microeconomia
+  numbered: True
+  chapters:
+  - file: micro
+- caption: Macroeconomia
+  numbered: True
+  chapters:
+  - file: macro
