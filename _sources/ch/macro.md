@@ -104,6 +104,8 @@ con:
 
 $$\frac{\Delta Y}{Y} = k - c \Delta u \ .$$
 
+Valori plausibili della retta di regressione sono $k \simeq 0.03$, $c \simeq -0.4$ (per quale economia in quale istante? US oggi?)
+
 (economics-hs:macro:intro:macro-vars:phillips)=
 #### Curva di Phillips
 
