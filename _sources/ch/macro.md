@@ -12,11 +12,18 @@ L'equivalenza dei 3 approcci viene rappresentata dall'**identità fondamentale d
 
 $$ \text{valore aggiunto totale} = \text{ricavo totale} = \text{spesa totale} $$
 
+**todo** Differenze? Difficoltà di misura secondo i diversi approcci? Cosa non viene misurato
+
+### PIL, PNL e NFP
 Il PIL (GDP) misura l'attività economica di tutti gli attori che hanno sede legale e fiscale entro i confini nazionali; il PNL(GNL) misura l'attività economica che produce output entro i confini nazionali. La differenza viene definita net factor payments from abroad, NFP, o net foreign factor income, NFFI,
 
 $$\text{NFP} := \text{GDP} - \text{GNP}$$
 
+Alcuni fattori che rendono GDP diverso da GNP sono aziende con produzione all'estero o lavoratori emigrati o immigrati che trasferiscono parte del reddito dentro o fuori i confini (rimesse)
 
+### Composizione del PIL
+
+$$Y = C + I + G + NX$$
 
 ### Altre variabili macroeconomiche: PIL, tasso di disoccupazione, tasso di inflazione; legge di Okun e curva di Phillips
 
@@ -59,7 +66,7 @@ $$\text{NFP} := \text{GDP} - \text{GNP}$$
 ### Storia: dalla necessità nel commercio e la partita doppia agli strumenti attualmente presenti
 ### Concetti fondamentali e definizioni
 - Moneta:
-- 
+- Rimesse
 
 ## Attualità
 - Storia recente: Italia, Europa, US,...
