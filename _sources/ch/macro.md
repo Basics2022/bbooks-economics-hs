@@ -118,7 +118,7 @@ Vedi anche curva di Phillips nell'ambito del [mercato del lavoro nel medio perio
 ### Il mercato dei beni
 Domanda di beni $Z$, offerta di beni $Y$
 
-$$Z = C + I + G + NX - In$$
+$$Z = C + I + G + \text{NX} - \text{In}$$
 
 - Consumo $C$.
   - Dipende dal reddito disponibile $Y_d$, cioè del reddito al netto delle tasse $T$, $Y_d = Y - T$,
@@ -127,10 +127,10 @@ $$Z = C + I + G + NX - In$$
 
   - $\partial_{Y_d} C > 0$
 
-- Investimenti $I$, esclude inventario $In$ trattato a parte
+- Investimenti $I$, esclude inventario $\text{In}$ trattato a parte
 - Spesa pubblica $G$, esclude trasferimenti poiché non sono acquisto di beni/servizi (ma fanno parte del reddito di altri attori economici)
-- Export netto $NX = Ex - Im$
-- Inventario $In$
+- Export netto $\text{NX} = \text{Ex} - \text{Im}$
+- Inventario $\text{In}$
 
 **Equilibrio.** All'equilibrio di domanda e offerta di beni, $Y = Z$,
 
