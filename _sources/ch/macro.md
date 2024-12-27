@@ -100,7 +100,7 @@ con:
 - $Y$ output misurato
 - $c$ costante di proporzionalità positiva. 
 - $u$ tasso di disoccupazione
-- $\bar{u}$ tasso di disoccupazione naturale
+- $\bar{u}$ [tasso di disoccupazione naturale](economics-hs:macro:medium-run:unemployment:phillips)
 
 $$\frac{\Delta Y}{Y} = k - c \Delta u \ .$$
 
@@ -125,15 +125,39 @@ Vedi anche curva di Phillips nell'ambito del [mercato del lavoro nel medio perio
 
 (economics-hs:macro:medium-run)=
 ## Il medio periodo
+
 (economics-hs:macro:medium-run:jobs-market)=
 ### Il mercato del lavoro
-- Determinazione dei salari
-- Determinazione dei prezzi
+
+#### Definizioni e statistiche
+- Forza lavoro, occupazione, disoccupazione; ore lavorate;
+
+(economics-hs:macro:medium-run:jobs-market:wages)=
+```{dropdown} Determinazione dei salari
+
+$$W = P^e F(u,z)$$
+
+- $W$ livello nominale dei salari aggregati
+- $P^e$ livelli di prezzo attesi (vedi [attese - prezzi]())
+- $u$ tasso di disoccupazione
+- $z$ variabile "catchall" che include tutti gli atrli fattori che possono influenzare i salari
+```
+
+```{dropdown} Determinazione dei prezzi
+
+```
+
 (economics-hs:macro:medium-run:as-ad)=
 ### Offerta e domanda aggregata: il modello AS-AD
+
 (economics-hs:macro:medium-run:unemployment:phillips)=
 ### Il tasso naturale di disoccupazione e la curva di Phillips
-[Introduzione alla curva di Phillips](economics-hs:macro:intro:macro-vars:phillips)
+
+
+Vedi anche [Introduzione alla curva di Phillips](economics-hs:macro:intro:macro-vars:phillips)
+
+**Tasso naturale di disoccupazione.**
+
 ### Inflazione, produzione e crescita della moneta
 
 (economics-hs:macro:long-run)=
@@ -142,20 +166,29 @@ Vedi anche curva di Phillips nell'ambito del [mercato del lavoro nel medio perio
 - Risparmio, accumulazione di capitale e produzione
 - Progresso tecnologico e crescita
 
+(economics-hs:macro:extra)=
 ## Altro
-- Aspettative
-  - Tassi di interesse
-  - Mercati finanziari
-  - Consumo e investimento
-  - Produzione e politica economica
-- Economia aperta
-  - Domanda interna o estera
-  - Deprezzamento, bilancia commerciale e produzione
-  - Risparmio, investimento e disavanzo
-  - Politica economica in economia aperta
-  - Regimi di cambio: fissi o flessibili
-- Patologie: crisi, elevato debito, iperinflazione
-- Politica economica, monetaria e fiscale
+(economics-hs:macro:extra:expectations)=
+### Aspettative
+- Tassi di interesse
+- Mercati finanziari
+- Consumo e investimento
+- Produzione e politica economica
+- [Salari](economics-hs:macro:medium-run:jobs-market:wages), il livello di prezzi attesi influenza la determinazione del livello dei salari,
+
+  $$W = P^e F(u,z)$$
+
+(economics-hs:macro:extra:open)=
+### Economia aperta
+- Domanda interna o estera
+- Deprezzamento, bilancia commerciale e produzione
+- Risparmio, investimento e disavanzo
+- Politica economica in economia aperta
+- Regimi di cambio: fissi o flessibili
+(economics-hs:macro:extra:issues)=
+### Patologie: crisi, elevato debito, iperinflazione
+(economics-hs:macro:extra:policy)=
+### Politica economica, monetaria e fiscale
 
 ## Basi
 ### Storia: dalla necessità nel commercio e la partita doppia agli strumenti attualmente presenti
