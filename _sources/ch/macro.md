@@ -2,6 +2,45 @@
 # Macroeconomia
 
 ## Introduzione
+```{dropdown} Soggetti economici:
+  individui, aziende, settore finanziario, governo, estero (five-sector **circular flow model**)
+
+  I -> A: risorse (tempo, capacità) in cambio di reddito, spesa per prodotti
+  I <- A: reddito per risorse, prodotti in cambio di denaro
+  I -> F: risparmi
+  I -> G: tasse
+  I -> E: import
+  A <- F: investimenti
+  A <- G: spesa pubblica (parte, poiché parte rimane per spese dipendenti pubblici?)
+  A <- E: export 
+
+  Astrazione utile per misura PIL, riassunto dipendenze tra settori,...
+```
+```{dropdown} Misura dell'economia
+- In termini di cosa si misura l'economia? In beni e servizi (no a illusioni monetaristiche)
+```
+```{dropdown} Moneta
+- Con cosa si misura? Con un valuta (no a illusioni monetaristiche, caratteristiche valuta - il BTC ha queste caratteristiche?,...)
+```
+```{dropdown} ... 
+```
+```{dropdown} Storia del pensiero e delle teorie economiche
+  - ...
+  - classici del XVIII e XIX secolo:
+    - A.Smith
+    - Positivismo e utilitarismo: J.Bentham, D.Ricardo, J.Stuart Mill
+    - ...
+    - LSE
+  - neoclassici:
+    - anglo-american
+    - ...
+    - scuola di Vienna: von Hayek,...
+    - ...
+  - XX secolo:
+    - Keynes
+    - Chicago, M.Friedman
+```
+
 ### Misurazione dell'attività economica, PIL e PNL
 Esistono 3 possibili definizioni equivalenti con 3 approcci differenti del PIL/PNL, come misura dell'attività economica in un determinato intervallo di tempo in una determinata zona:
 - produzione: valore aggiunto di tutto l'output (beni più servizi) prodotto 
@@ -24,6 +63,15 @@ Alcuni fattori che rendono GDP diverso da GNP sono aziende con produzione all'es
 ### Composizione del PIL
 
 $$Y = C + I + G + NX$$
+
+Spese totali che formano il PIL, $Y$, sono di 4 tipi:
+- $C$ consumi
+- $I$ investimenti
+- $G$ spesa governativa/pubblica
+- $NX$ esportazione netta di beni e servizi all'estero
+
+```{note} Com'è composto il PIL nei diversi stati? Come si è evoluto negli anni?
+```
 
 ### Altre variabili macroeconomiche: PIL, tasso di disoccupazione, tasso di inflazione; legge di Okun e curva di Phillips
 
@@ -67,6 +115,7 @@ $$Y = C + I + G + NX$$
 ### Concetti fondamentali e definizioni
 - Moneta:
 - Rimesse
+- Variazione congiunturale (rispetto al periodo precendente), tendenziale (rispetto allo stesso periodo dell'anno precedente)
 
 ## Attualità
 - Storia recente: Italia, Europa, US,...
