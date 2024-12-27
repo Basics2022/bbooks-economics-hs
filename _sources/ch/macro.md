@@ -1,6 +1,7 @@
 (economics-hs:macro)=
 # Introduzione alla macroeconomia
 
+(economics-hs:macro:intro)=
 ## Introduzione
 ```{dropdown} Soggetti economici:
   individui, aziende, settore finanziario, governo, estero (five-sector **circular flow model**)
@@ -41,6 +42,7 @@
     - Chicago, M.Friedman
 ```
 
+(economics-hs:macro:intro:econ-measure:gdp)=
 ### Misurazione dell'attività economica, PIL e PNL
 Esistono 3 possibili definizioni equivalenti con 3 approcci differenti del PIL/PNL, come misura dell'attività economica in un determinato intervallo di tempo in una determinata zona:
 1. produzione: valore aggiunto di tutto l'output (beni più servizi) prodotto 
@@ -60,6 +62,7 @@ $$\text{NFP} := \text{GDP} - \text{GNP}$$
 
 Alcuni fattori che rendono GDP diverso da GNP sono aziende con produzione all'estero o lavoratori emigrati o immigrati che trasferiscono parte del reddito dentro o fuori i confini (rimesse)
 
+(economics-hs:macro:intro:gdp)=
 ### Composizione del PIL
 
 $$Y = C + I + G + NX$$
@@ -73,32 +76,53 @@ Spese totali che formano il PIL, $Y$, sono di 4 tipi:
 ```{note} Com'è composto il PIL nei diversi stati? Come si è evoluto negli anni?
 ```
 
+(economics-hs:macro:intro:macro-vars)=
 ### Altre variabili macroeconomiche: PIL, tasso di disoccupazione, tasso di inflazione; legge di Okun e curva di Phillips
 
+(economics-hs:macro:intro:macro-vars:inflation)=
 #### Inflazione
-**Price level.** Il livello dei prezzi traccia l'andamento di prezzo di un bene o servizio (o beni e servizi equivalenti) nel tempo. L'Inflazione è definita come l'aumento percentuale del livello dei prezzi. Esistono principalmente due misure del livello dei prezzi: il deflatore del PIL e il CPI.
+**Price level.** Il livello dei prezzi traccia l'andamento di prezzo di un bene o servizio (o beni e servizi equivalenti) nel tempo. L'Inflazione è definita come l'aumento percentuale del livello dei prezzi. Esistono principalmente due misure del livello dei prezzi: il deflatore del PIL e il CPI. Non è detto che i due indici corrispondano: poiché il deflatore del PIL traccia l'andamento dei prezzi dei beni prodotti nell'economia, mentre il CPI traccia l'andamento dei prezzi dei beni acquistati dai consumatori in un'economia.
 
 **Deflatore del PIL.** Nel periodo $t$, il deflatore del PIL è definito come il rapporto tra il PIL nominale e il PIL reale,
 
-$$P_t = \frac{\$ Y_t}{Y_t} \ ,$$
+$$P_t = \frac{\$ Y_t}{Y_t} \ .$$
 
 **CPI, Consumer Price Index.**
 
+(economics-hs:macro:intro:macro-vars:okun)=
+#### Legge di Okun
+
+(economics-hs:macro:intro:macro-vars:phillips)=
+#### Curva di Phillips
+
+Vedi anche curva di Phillips nell'ambito del [mercato del lavoro nel medio periodo](economics-hs:macro:medium-run:unemployment:phillips).
+
+(economics-hs:macro:short-run)=
 ## Il breve periodo
+(economics-hs:macro:short-run:goods-market)=
 ### Il mercato dei beni
+(economics-hs:macro:short-run:financial-market)=
 ### I mercati finanziari
+(economics-hs:macro:short-run:is-lm)=
 ### Il modello IS-LM
 - Modello IS-LM in economoia chiusa e aperta
 - Politiche economiche e fiscali
   - Trappola della liquidità
+
+(economics-hs:macro:medium-run)=
 ## Il medio periodo
+(economics-hs:macro:medium-run:jobs-market)=
 ### Il mercato del lavoro
 - Determinazione dei salari
 - Determinazione dei prezzi
+(economics-hs:macro:medium-run:as-ad)=
 ### Offerta e domanda aggregata: il modello AS-AD
+(economics-hs:macro:medium-run:unemployment:phillips)=
 ### Il tasso naturale di disoccupazione e la curva di Phillips
+[Introduzione alla curva di Phillips](economics-hs:macro:intro:macro-vars:phillips)
 ### Inflazione, produzione e crescita della moneta
 
+(economics-hs:macro:long-run)=
 ## Il lungo periodo
 - Storia
 - Risparmio, accumulazione di capitale e produzione
