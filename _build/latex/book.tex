@@ -87,7 +87,7 @@
         
 
 \title{Economia per le scuole superiori}
-\date{27 dic 2024}
+\date{16 mag 2025}
 \release{}
 \author{basics}
 \newcommand{\sphinxlogo}{\vbox{}}
@@ -272,9 +272,9 @@ Alcuni fattori che rendono GDP diverso da GNP sono aziende con produzione all’
 
 
 \subsection{Composizione del PIL}
-\label{\detokenize{ch/macro:composizione-del-pil}}\label{\detokenize{ch/macro:economics-hs-macro-intro-gdp}}\begin{equation*}
-\begin{split}Y = C + I + G + NX\end{split}
-\end{equation*}
+\label{\detokenize{ch/macro:composizione-del-pil}}\label{\detokenize{ch/macro:economics-hs-macro-intro-gdp}}\begin{equation}\label{equation:ch/macro:eq:gdp:expenses}
+\begin{split}Y = C + I + G + NX + In\end{split}
+\end{equation}
 \sphinxAtStartPar
 Spese totali che formano il PIL, \(Y\), sono di 4 tipi:
 \begin{itemize}
@@ -294,7 +294,20 @@ Spese totali che formano il PIL, \(Y\), sono di 4 tipi:
 \sphinxAtStartPar
 \(NX\) esportazione netta di beni e servizi all’estero
 
+\item {} 
+\sphinxAtStartPar
+\(In\) scorte
+
 \end{itemize}
+
+\begin{sphinxadmonition}{note}{Esportazione netta, \protect\(\ NX\protect\)}
+
+\sphinxAtStartPar
+Nell’identità contabile \eqref{equation:ch/macro:eq:gdp:expenses} del PIL tramite i consumi, il termine di bilancia commerciale \(NX = X - M\), saldo tra esportazione \(X\) e importazioni \(M\), considera i consumi esteri \(X\) dei prodotti nazionali e rimuove il termine di importazioni \(M\), già considerato in termini di consumi \(C\) e investimenti \(I\), per non contarlo due volte.
+
+\sphinxAtStartPar
+Ad esempio, il ruolo del termine \(-M\) nell’identità contabile \eqref{equation:ch/macro:eq:gdp:expenses} viene discusso nell”\sphinxhref{https://lavoce.info/archives/107719/le-importazioni-il-pil-e-gli-errori-di-misurazione/}{articolo} abbastanza recente \sphinxhyphen{} 02/05/2025 \sphinxhyphen{} di T.Monacelli e R.Trezzi su \sphinxhref{http://lavoce.info}{lavoce.info}, come chiarimento necessario per molti giornalisti o sedicenti esperti che si sono lanciati nel commento degli effetti dell’aumento di importazioni sul PIL negli Stati Uniti d’America, in seguito agli annunci di dazi.
+\end{sphinxadmonition}
 
 \begin{sphinxadmonition}{note}{Nota:}
 \sphinxAtStartPar
@@ -363,6 +376,78 @@ Valori plausibili della retta di regressione sono \(k \simeq 0.03\), \(c \simeq 
 Vedi anche curva di Phillips nell’ambito del {\hyperref[\detokenize{ch/macro:economics-hs-macro-medium-run-unemployment-phillips}]{\sphinxcrossref{\DUrole{std,std-ref}{mercato del lavoro nel medio periodo}}}}.
 
 
+\subsection{Confronti}
+\label{\detokenize{ch/macro:confronti}}\label{\detokenize{ch/macro:economics-hs-macro-intro-comparisons}}
+
+\subsubsection{Andamenti temporali}
+\label{\detokenize{ch/macro:andamenti-temporali}}\label{\detokenize{ch/macro:economics-hs-macro-intro-comparisons-time}}
+\sphinxAtStartPar
+\sphinxstylestrong{Valori}
+\begin{itemize}
+\item {} 
+\sphinxAtStartPar
+\sphinxstylestrong{nominali}
+
+\item {} 
+\sphinxAtStartPar
+\sphinxstylestrong{reali}, inlfation\sphinxhyphen{}adjusted
+
+\end{itemize}
+
+\sphinxAtStartPar
+\sphinxstylestrong{Variazioni}
+\begin{itemize}
+\item {} 
+\sphinxAtStartPar
+\sphinxstylestrong{congiunturale}: variazione rispetto al periodo precedende
+
+\item {} 
+\sphinxAtStartPar
+\sphinxstylestrong{tendenziale}: variazione rispetto allo stesso periodo dell’anno precedente
+
+\end{itemize}
+
+\sphinxAtStartPar
+\sphinxstylestrong{Componenti di una time series.} Vengono riconosciute diverse componenti di una \sphinxstyleemphasis{time series}:
+\begin{itemize}
+\item {} 
+\sphinxAtStartPar
+\(T\): \sphinxstyleemphasis{trend}
+
+\item {} 
+\sphinxAtStartPar
+\(C\): \sphinxstyleemphasis{cyclical}, durata variabile e non nota, tipicamente più lenta e più ampia della variabilità stagionale (?)
+
+\item {} 
+\sphinxAtStartPar
+\(S\): \sphinxstyleemphasis{seasonal}, durata fissa e nota
+
+\item {} 
+\sphinxAtStartPar
+\(E\): \sphinxstyleemphasis{error}, o \sphinxstyleemphasis{irregular}
+
+\end{itemize}
+
+\sphinxAtStartPar
+A seconda del fenomeno si possono utilizzare modelli additivi, \(Y_t = T_t + C_t + S_t + E_t\), o moltiplicativa \(Y_t = T_t \, C_t \, S_t \, E_t\)
+
+\sphinxAtStartPar
+\sphinxstylestrong{Correzioni}
+\begin{itemize}
+\item {} 
+\sphinxAtStartPar
+effetti di calendario: numero di giorni lavorati, festività variabili, anno bisestile,…
+
+\item {} 
+\sphinxAtStartPar
+effetti di stagione:
+
+\end{itemize}
+
+
+\subsubsection{Confronto di diverse regioni}
+\label{\detokenize{ch/macro:confronto-di-diverse-regioni}}\label{\detokenize{ch/macro:economics-hs-macro-intro-comparisons-space}}
+
 \section{Il breve periodo}
 \label{\detokenize{ch/macro:il-breve-periodo}}\label{\detokenize{ch/macro:economics-hs-macro-short-run}}
 
@@ -412,9 +497,9 @@ Inventario \(\text{In}\)
 
 \sphinxAtStartPar
 \sphinxstylestrong{Equilibrio.} All’equilibrio di domanda e offerta di beni, \(Y^* = Z(Y^*)\),
-\begin{equation*}
+\begin{equation}\label{equation:ch/macro:eq:goods:zy}
 \begin{split}Y^* = C(Y-T) + I(Y^*,i) + G + \text{NX}\end{split}
-\end{equation*}
+\end{equation}
 \sphinxAtStartPar
 \sphinxstylestrong{Approssimazioni.} Nel caso di funzione di consumo lineare con il reddito disponibili, \(C = c_0 + c_1 (Y- T)\),
 \begin{equation*}
@@ -442,20 +527,88 @@ Risparmio pubblico, \(S_{pub} = T - G\)
 \end{itemize}
 
 \sphinxAtStartPar
-al netto dell’import/export e dell’inventario,
-\begin{equation*}
+al netto dell’import/export e dell’inventario, esplicitando il contributo degli investimenti \(I\) dalla relazione produzione=domanda del PIL \eqref{equation:ch/macro:eq:goods:zy}, si ottiene la relazione
+\begin{equation}\label{equation:ch/macro:eq:goods:is}
 \begin{split}\begin{aligned}
-  Y & = C + I + G \\
   I & = Y - C - G = \\
     & = Y - C -  T + ( T - G ) = \\
-    & = S + S_{pub}
+    & = S + S_{pub} 
 \end{aligned}\end{split}
+\end{equation}
+\sphinxAtStartPar
+che prevede l’uguaglianza tra investimenti e risparmio (somma di privato e pubblico) in condizioni di equilibrio.
+
+\sphinxAtStartPar
+\sphinxstylestrong{Osservazione.} La decisione di consumo è la stessa decisione di risparmio, poiché \(Y - T =: Y_d = C + S\)
+
+\sphinxAtStartPar
+\sphinxstylestrong{Approssimazioni.} Nel caso di consumo lineare con il reddito disponibile,
+\begin{equation*}
+\begin{split}S = Y - T - C = Y - T - c_0 - c_1 (Y - T) = - c_0 + (1 - c_1)(Y-T)\end{split}
 \end{equation*}
 
 \subsection{I mercati finanziari}
-\label{\detokenize{ch/macro:i-mercati-finanziari}}\label{\detokenize{ch/macro:economics-hs-macro-short-run-financial-market}}\begin{equation*}
+\label{\detokenize{ch/macro:i-mercati-finanziari}}\label{\detokenize{ch/macro:economics-hs-macro-short-run-financial-market}}
+\sphinxAtStartPar
+Nell’ipotesi che ci siano solo due scelte possibili di impiego del patrimonio, liquidità (moneta in varie forme) e obbligazioni (che pagano interessi \(i\)). In quale proporzione conviene avere liquidità e obbligazioni? Dipende da: livello di transazioni (quanto denaro serve per le spese) e interessi sulle obbligazioni (quanto conviene avere bond, per godere di interessi).
+
+
+\subsubsection{Domanda di moneta}
+\label{\detokenize{ch/macro:domanda-di-moneta}}
+\sphinxAtStartPar
+La domanda di moneta è la quantità di moneta necessaria principalmente per le transazioni all’interno di un’economia. E” ragionevole quindi assumere che la domanda di moneta \(M^d\) sia proporzionale al reddito nominale \(\$Y\) e sia funzione dei tassi di interesse \(i\)
+\begin{equation*}
+\begin{split}M^d = \$ Y L(i) \ ,\end{split}
+\end{equation*}
+\sphinxAtStartPar
+con \(L_{/i} < 0\) poiché risulta più conveniente avere
+
+\sphinxAtStartPar
+\sphinxstylestrong{Osservazione.} {\hyperref[\detokenize{ch/macro:economics-hs-macro-extra-expectations}]{\sphinxcrossref{\DUrole{std,std-ref}{Ruolo delle aspettative sui tassi di interesse}}}}.
+
+\sphinxAtStartPar
+L’offerta di moneta \(M^s\) è controllata dalla banca centrale della zona di interesse. All”\sphinxstylestrong{equilibrio}, l’offerta di moneta uguaglia la domanda di moneta,
+
+\sphinxAtStartPar
+\(\begin{aligned}
+  M^s & = M^d \\
+  M^s & = \$ Y L(i) \\
+  M^s & = P Y L(i) \ ,
+\end{aligned}\)\$
+
+\sphinxAtStartPar
+avendo indicato \(Y\) l’output reale, \(\$ Y\) l’output nominale e \(P\) l’indice dei prezzi.
+\begin{equation*}
 \begin{split}\frac{M}{P} = Y L(i)\end{split}
 \end{equation*}
+
+\subsection{Determinazione del tasso di interesse}
+\label{\detokenize{ch/macro:determinazione-del-tasso-di-interesse}}\begin{itemize}
+\item {} 
+\sphinxAtStartPar
+politica monetaria, e opearazioni open\sphinxhyphen{}market
+
+\item {} 
+\sphinxAtStartPar
+economia con moneta nella forma di contanti e depositi: il ruolo delle banche come \sphinxstyleemphasis{intermediari finanziari}
+\begin{itemize}
+\item {} 
+\sphinxAtStartPar
+Cosa fanno le banche: bilancio di CB e di B
+\begin{itemize}
+\item {} 
+\sphinxAtStartPar
+B: ricevono soldi da risparmiatori; mantengono riserve (in liquidità e presso CB), per transazioni e per vincoli richiesti per solidità (reserve ratio); il resto può essere usato per prestiti (circa 70\% in quali paesi) e altri investimenti, tipicamente bond (30\%)
+
+\end{itemize}
+
+\end{itemize}
+
+\end{itemize}
+
+\sphinxAtStartPar
+\sphinxstylestrong{todo}…
+
 
 \subsection{Il modello IS\sphinxhyphen{}LM}
 \label{\detokenize{ch/macro:il-modello-is-lm}}\label{\detokenize{ch/macro:economics-hs-macro-short-run-is-lm}}\begin{itemize}
@@ -771,6 +924,101 @@ O.Blanchard, A.Amighini, F.Giavazzi, Macroeconomia \sphinxhyphen{} Una prospetti
 
 \end{itemize}
 
+\sphinxstepscope
+
+
+\part{Bilancio pubblico}
+
+\sphinxstepscope
+
+
+\chapter{Bilancio pubblico}
+\label{\detokenize{ch/public:bilancio-pubblico}}\label{\detokenize{ch/public:economics-hs-public}}\label{\detokenize{ch/public::doc}}
+
+\section{Legge}
+\label{\detokenize{ch/public:legge}}
+\sphinxAtStartPar
+Lege di bilancio è legge dello Stato, art.81 della Costituzione, e dovrebbe rispettrare il principio di equilibrio tra entrate e uscite.
+
+
+\section{Funzioni}
+\label{\detokenize{ch/public:funzioni}}
+
+\subsection{Funzione economica}
+\label{\detokenize{ch/public:funzione-economica}}
+
+\subsection{…}
+\label{\detokenize{ch/public:id1}}
+
+\section{Strumenti}
+\label{\detokenize{ch/public:strumenti}}
+\sphinxAtStartPar
+Tutte le amministrazioni pubbliche devono seguire il principio di programmazione. Gli strumenti di programmazione sono:
+\begin{itemize}
+\item {} 
+\sphinxAtStartPar
+DEF
+
+\item {} 
+\sphinxAtStartPar
+NADEF
+
+\item {} 
+\sphinxAtStartPar
+disegno di legge di stabilità
+
+\item {} 
+\sphinxAtStartPar
+disegno di legge del bilancio dello Stato
+
+\item {} 
+\sphinxAtStartPar
+disegno di legge di assestamento del bilancio annaule
+
+\item {} 
+\sphinxAtStartPar
+disegni di leggi collegati alla manovra di finanza pubblica
+
+\end{itemize}
+
+\sphinxAtStartPar
+Bilanci:
+\begin{itemize}
+\item {} 
+\sphinxAtStartPar
+Bilancio annuale di previsione
+\begin{itemize}
+\item {} 
+\sphinxAtStartPar
+Missione, programma, amministrazione, attività
+
+\end{itemize}
+
+\item {} 
+\sphinxAtStartPar
+Bilancio pluriennale di previsione (3 anni)
+
+\item {} 
+\sphinxAtStartPar
+Variazioni di bilancio
+
+\end{itemize}
+
+
+\section{Il ciclo del bilancio: calendario}
+\label{\detokenize{ch/public:il-ciclo-del-bilancio-calendario}}
+
+\section{Princìpi \sphinxhyphen{} Maastricht in Europa}
+\label{\detokenize{ch/public:principi-maastricht-in-europa}}
+\sphinxAtStartPar
+…
+
+
+\section{Esempio \sphinxhyphen{} il bilancio pubblico italiano \sphinxhyphen{} anno XXXX}
+\label{\detokenize{ch/public:esempio-il-bilancio-pubblico-italiano-anno-xxxx}}
+
+\section{}
+\label{\detokenize{ch/public:id2}}
 \sphinxstepscope
 
 

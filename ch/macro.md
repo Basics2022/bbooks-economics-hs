@@ -66,13 +66,23 @@ Alcuni fattori che rendono GDP diverso da GNP sono aziende con produzione all'es
 (economics-hs:macro:intro:gdp)=
 ### Composizione del PIL
 
-$$Y = C + I + G + NX$$
+$$Y = C + I + G + NX + In$$ (eq:gdp:expenses)
 
 Spese totali che formano il PIL, $Y$, sono di 4 tipi:
 - $C$ consumi
 - $I$ investimenti
 - $G$ spesa governativa/pubblica
 - $NX$ esportazione netta di beni e servizi all'estero
+- $In$ scorte
+
+```{admonition} Esportazione netta, $\ NX$
+:class: tip
+
+Nell'identità contabile {eq}`eq:gdp:expenses` del PIL tramite i consumi, il termine di bilancia commerciale $NX = X - M$, saldo tra esportazione $X$ e importazioni $M$, considera i consumi esteri $X$ dei prodotti nazionali e rimuove il termine di importazioni $M$, già considerato in termini di consumi $C$ e investimenti $I$, per non contarlo due volte.
+
+Ad esempio, il ruolo del termine $-M$ nell'identità contabile {eq}`eq:gdp:expenses` viene discusso nell'[articolo](https://lavoce.info/archives/107719/le-importazioni-il-pil-e-gli-errori-di-misurazione/) abbastanza recente - 02/05/2025 - di T.Monacelli e R.Trezzi su lavoce.info, come chiarimento necessario per molti giornalisti o sedicenti esperti che si sono lanciati nel commento degli effetti dell'aumento di importazioni sul PIL negli Stati Uniti d'America, in seguito agli annunci di dazi.
+
+```
 
 ```{note} Com'è composto il PIL nei diversi stati? Come si è evoluto negli anni?
 ```
@@ -111,6 +121,35 @@ Valori plausibili della retta di regressione sono $k \simeq 0.03$, $c \simeq -0.
 #### Curva di Phillips
 
 Vedi anche curva di Phillips nell'ambito del [mercato del lavoro nel medio periodo](economics-hs:macro:medium-run:unemployment:phillips).
+
+(economics-hs:macro:intro:comparisons)=
+### Confronti
+
+(economics-hs:macro:intro:comparisons:time)=
+#### Andamenti temporali
+
+**Valori**
+- **nominali**
+- **reali**, inlfation-adjusted
+
+**Variazioni**
+- **congiunturale**: variazione rispetto al periodo precedende
+- **tendenziale**: variazione rispetto allo stesso periodo dell'anno precedente
+
+**Componenti di una time series.** Vengono riconosciute diverse componenti di una *time series*:
+- $T$: *trend*
+- $C$: *cyclical*, durata variabile e non nota, tipicamente più lenta e più ampia della variabilità stagionale (?)
+- $S$: *seasonal*, durata fissa e nota
+- $E$: *error*, o *irregular*
+
+A seconda del fenomeno si possono utilizzare modelli additivi, $Y_t = T_t + C_t + S_t + E_t$, o moltiplicativa $Y_t = T_t \, C_t \, S_t \, E_t$
+
+**Correzioni**
+- effetti di calendario: numero di giorni lavorati, festività variabili, anno bisestile,...
+- effetti di stagione:
+
+(economics-hs:macro:intro:comparisons:space)=
+#### Confronto di diverse regioni
 
 (economics-hs:macro:short-run)=
 ## Il breve periodo

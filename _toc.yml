@@ -14,6 +14,10 @@ parts:
   numbered: True
   chapters:
   - file: ch/macro
+- caption: Bilancio pubblico
+  numbered: True
+  chapters:
+  - file: ch/public
 - caption: Educazione finanziaria
   numbered: True
   chapters:
