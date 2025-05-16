@@ -151,6 +151,8 @@ A seconda del fenomeno si possono utilizzare modelli additivi, $Y_t = T_t + C_t 
 (economics-hs:macro:intro:comparisons:space)=
 #### Confronto di diverse regioni
 
+**PPI**,...
+
 (economics-hs:macro:short-run)=
 ## Il breve periodo
 (economics-hs:macro:short-run:goods-market)=
