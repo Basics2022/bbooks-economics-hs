@@ -66,13 +66,23 @@ Alcuni fattori che rendono GDP diverso da GNP sono aziende con produzione all'es
 (economics-hs:macro:intro:gdp)=
 ### Composizione del PIL
 
-$$Y = C + I + G + NX$$
+$$Y = C + I + G + NX + In$$ (eq:gdp:expenses)
 
 Spese totali che formano il PIL, $Y$, sono di 4 tipi:
 - $C$ consumi
 - $I$ investimenti
 - $G$ spesa governativa/pubblica
 - $NX$ esportazione netta di beni e servizi all'estero
+- $In$ scorte
+
+```{admonition} Esportazione netta, $\ NX$
+:class: tip
+
+Nell'identità contabile {eq}`eq:gdp:expenses` del PIL tramite i consumi, il termine di bilancia commerciale $NX = X - M$, saldo tra esportazione $X$ e importazioni $M$, considera i consumi esteri $X$ dei prodotti nazionali e rimuove il termine di importazioni $M$, già considerato in termini di consumi $C$ e investimenti $I$, per non contarlo due volte.
+
+Ad esempio, il ruolo del termine $-M$ nell'identità contabile {eq}`eq:gdp:expenses` viene discusso nell'[articolo](https://lavoce.info/archives/107719/le-importazioni-il-pil-e-gli-errori-di-misurazione/) abbastanza recente - 02/05/2025 - di T.Monacelli e R.Trezzi su lavoce.info, come chiarimento necessario per molti giornalisti o sedicenti esperti che si sono lanciati nel commento degli effetti dell'aumento di importazioni sul PIL negli Stati Uniti d'America, in seguito agli annunci di dazi.
+
+```
 
 ```{note} Com'è composto il PIL nei diversi stati? Come si è evoluto negli anni?
 ```
@@ -111,6 +121,35 @@ Valori plausibili della retta di regressione sono $k \simeq 0.03$, $c \simeq -0.
 #### Curva di Phillips
 
 Vedi anche curva di Phillips nell'ambito del [mercato del lavoro nel medio periodo](economics-hs:macro:medium-run:unemployment:phillips).
+
+(economics-hs:macro:intro:comparisons)=
+### Confronti
+
+(economics-hs:macro:intro:comparisons:time)=
+#### Andamenti temporali
+
+**Valori**
+- **nominali**
+- **reali**, inlfation-adjusted
+
+**Variazioni**
+- **congiunturale**: variazione rispetto al periodo precedende
+- **tendenziale**: variazione rispetto allo stesso periodo dell'anno precedente
+
+**Componenti di una time series.** Vengono riconosciute diverse componenti di una *time series*:
+- $T$: *trend*
+- $C$: *cyclical*, durata variabile e non nota, tipicamente più lenta e più ampia della variabilità stagionale (?)
+- $S$: *seasonal*, durata fissa e nota
+- $E$: *error*, o *irregular*
+
+A seconda del fenomeno si possono utilizzare modelli additivi, $Y_t = T_t + C_t + S_t + E_t$, o moltiplicativa $Y_t = T_t \, C_t \, S_t \, E_t$
+
+**Correzioni**
+- effetti di calendario: numero di giorni lavorati, festività variabili, anno bisestile,...
+- effetti di stagione:
+
+(economics-hs:macro:intro:comparisons:space)=
+#### Confronto di diverse regioni
 
 (economics-hs:macro:short-run)=
 ## Il breve periodo
@@ -165,12 +204,45 @@ $$\begin{aligned}
 
 che prevede l'uguaglianza tra investimenti e risparmio (somma di privato e pubblico) in condizioni di equilibrio.
 
+**Osservazione.** La decisione di consumo è la stessa decisione di risparmio, poiché $Y - T =: Y_d = C + S$
 
+**Approssimazioni.** Nel caso di consumo lineare con il reddito disponibile,
+
+$$S = Y - T - C = Y - T - c_0 - c_1 (Y - T) = - c_0 + (1 - c_1)(Y-T)$$
 
 (economics-hs:macro:short-run:financial-market)=
 ### I mercati finanziari
 
+Nell'ipotesi che ci siano solo due scelte possibili di impiego del patrimonio, liquidità (moneta in varie forme) e obbligazioni (che pagano interessi $i$). In quale proporzione conviene avere liquidità e obbligazioni? Dipende da: livello di transazioni (quanto denaro serve per le spese) e interessi sulle obbligazioni (quanto conviene avere bond, per godere di interessi).
+
+#### Domanda di moneta
+La domanda di moneta è la quantità di moneta necessaria principalmente per le transazioni all'interno di un'economia. E' ragionevole quindi assumere che la domanda di moneta $M^d$ sia proporzionale al reddito nominale $\$Y$ e sia funzione dei tassi di interesse $i$
+
+$$M^d = \$ Y L(i) \ ,$$
+
+con $L_{/i} < 0$ poiché risulta più conveniente avere 
+
+**Osservazione.** [Ruolo delle aspettative sui tassi di interesse](economics-hs:macro:extra:expectations).
+
+L'offerta di moneta $M^s$ è controllata dalla banca centrale della zona di interesse. All'**equilibrio**, l'offerta di moneta uguaglia la domanda di moneta, 
+
+$\begin{aligned}
+  M^s & = M^d \\
+  M^s & = \$ Y L(i) \\
+  M^s & = P Y L(i) \ ,
+\end{aligned}$$
+
+avendo indicato $Y$ l'output reale, $\$ Y$ l'output nominale e $P$ l'indice dei prezzi.
+
 $$\frac{M}{P} = Y L(i)$$
+
+### Determinazione del tasso di interesse
+- politica monetaria, e opearazioni open-market
+- economia con moneta nella forma di contanti e depositi: il ruolo delle banche come *intermediari finanziari*
+  - Cosa fanno le banche: bilancio di CB e di B
+    - B: ricevono soldi da risparmiatori; mantengono riserve (in liquidità e presso CB), per transazioni e per vincoli richiesti per solidità (reserve ratio); il resto può essere usato per prestiti (circa 70\% in quali paesi) e altri investimenti, tipicamente bond (30\%)
+
+**todo**...
 
 (economics-hs:macro:short-run:is-lm)=
 ### Il modello IS-LM
